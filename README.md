@@ -1,10 +1,4 @@
-# Cat Dataset from TikTok Videos 🐱
+Tis an end-to-end computer vision system for identifying individual cats from raw video data.
+The system automates the full pipeline, starting from video ingestion and object detection, to frame extraction, image preprocessing, and data augmentation. A convolutional neural network is then trained to distinguish between individual animals based on visual features.
 
-There aren’t many datasets that contain multiple images of the same cat from different angles.  
-This project does it by:
-
-1. **Scraping TikTok cat videos** and automatically taking multiple screenshots from each.
-2. **Running an R-CNN model** (`fasterrcnn_resnet50_fpn`) to detect cats in the screenshots.
-3. **Cropping out irrelevant background** so only the cat remains in the picture.
-
-The result is a dataset of ~50 cats, each with multiple images from different positions and sides.
+This approach enables scalable identification of stray or unregistered animals without the need for physical tagging. Potential applications include animal welfare monitoring, shelter management, and population tracking.
